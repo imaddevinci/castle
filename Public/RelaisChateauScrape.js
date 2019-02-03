@@ -5,7 +5,7 @@ var fs = require('fs');
 const cheerio = require('cheerio');
 var http = require('http');   
 var nomHotel=[];
-var nomRestorant=[];
+var nomRestaurant=[];
 async function sandbox(){
   
 
@@ -36,10 +36,11 @@ $('#countryF').find("h3:contains('France')").parent().find('.listDiamond > li').
 	
 	//console.log(links);
 	var i =0;
-
+var compteurHR=0;
 
 		var compteur=0;
 		var completed_requests = 0;
+		
 		links.forEach(function(url) {
   var responses = [];
   request({uri: url}, function(error, response, body) {
@@ -53,6 +54,17 @@ if(isHotel.includes('Hôtel')===true && isRestaurant.includes('Restaurant')===tr
 		//console.log(url)
 		valeur =1;
 		
+
+//var hotel=$('.jsSecondNavMain').next().find("a").attr('href');
+	//	var hotel=$('.jsSecondNavMain').next().find("a").attr('href');
+	//	console.log(hotel);
+	//	console.log($('.grid.row.hotelTabsHeader.col-1-1.hotelTabsHeaderTitle').find("*[itemprop = 'name']").text);
+	//	console.log($('.jsSecondNavMain').next().find("a").attr('href'));
+		
+		
+	//  nomHotel[compteurHR] =hotel;
+	  //nomRestaurant[compteurHR]=restaurant;
+		//compteurHR++;
 	  }else 
 	  {
 		//  console.log("bad")
@@ -71,17 +83,14 @@ if(isHotel.includes('Hôtel')===true && isRestaurant.includes('Restaurant')===tr
 	  
 //console.log(links);
 //console.log(links.length);      
-    
+  //  console.log(nomHotel);
+  //console.log(nomRestaurant);
   });
   
 
 })
 
- var nomResto=$('.hotelTabsHeaderTitle').find("*[itemprop = 'name']").text()
-	 // console.log(nomResto);
-
-	//var hotel=$('.jsSecondNavMain').next().find("a").attr('href')
-	
+ 
 
 
 
