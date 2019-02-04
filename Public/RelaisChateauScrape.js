@@ -6,12 +6,13 @@ const cheerio = require('cheerio');
 var http = require('http');   
 var nomHotel=[];
 var nomRestaurant=[];
+
 async function sandbox(){
   
 
 request(
     { uri: "https://www.relaischateaux.com/fr/site-map/etablissements"},
-    function(error, response, body) {
+     function(error, response, body) {
       //  console.log(body);
 	//  var js= JSON.stringify(body);
 	 
@@ -41,34 +42,71 @@ var compteurHR=0;
 		var compteur=0;
 		var completed_requests = 0;
 		
-		links.forEach(function(url) {
+		links.forEach(async function(url) {
   var responses = [];
-  request({uri: url}, function(error, response, body) {
+  request({uri: url}, async function(error, response, body) {
     $ = cheerio.load(body);
  // console.log($.html());
-var isHotel =$('.jsSecondNavMain').find("a").first().text();
-var isRestaurant= $('.jsSecondNavMain').find("li").next().find("a").first().text();
-if(isHotel.includes('Hôtel')===true && isRestaurant.includes('Restaurant')===true)
-      {
-		//console.log("good")
+ var isHotel="";
+ try {
+ isHotel= await  $('.jsSecondNavMain').find("li").find("a").first().text();
+}
+catch(error) {
+  console.error(error);
+  // expected output: ReferenceError: nonExistentFunction is not defined
+  // Note - error messages will vary depending on browser
+}
+
+
+
+if(isHotel.includes('Hôtel')===true )
+      {var isRestaurant="";
+		  try{
+			  
+			  isRestaurant = await $('.jsSecondNavMain').find("li").next().find("a").first().text();
+		 
+		  }catch(error) {
+  console.error(error);
+  // expected output: ReferenceError: nonExistentFunction is not defined
+  // Note - error messages will vary depending on browser
+}
+		 
+		  if (isRestaurant.includes('Restaurant')===true)
+		  {
+			 // console.log(isHotel);
+			 // console.log(isRestaurant);
+			  	//console.log("good")
 		//console.log(url)
 		valeur =1;
-		
+	//	console.log(compteur);
+	//(".ajaxPages").find(".tabRestaurant").find
+		try{
+			
+			
+						 // console.log($("h3:contains(mainTitle2)").text());
 
-//var hotel=$('.jsSecondNavMain').next().find("a").attr('href');
-	//	var hotel=$('.jsSecondNavMain').next().find("a").attr('href');
-	//	console.log(hotel);
-	//	console.log($('.grid.row.hotelTabsHeader.col-1-1.hotelTabsHeaderTitle').find("*[itemprop = 'name']").text);
-	//	console.log($('.jsSecondNavMain').next().find("a").attr('href'));
+			  console.log($('.ajaxPages').html());
+console.log("==========");
+			//  console.log($('.headings').find("*[itemprop = 'name']").text());
+		 
+		  }catch(error) {
+  console.error(error);
+  console.log("error");
+  // expected output: ReferenceError: nonExistentFunction is not defined
+  // Note - error messages will vary depending on browser
+}
+
+
+		compteurHR++;
 		
-		
-	//  nomHotel[compteurHR] =hotel;
-	  //nomRestaurant[compteurHR]=restaurant;
-		//compteurHR++;
+		console.log(compteurHR);
+
+			  
+		  }
+	
 	  }else 
 	  {
-		//  console.log("bad")
-		 // console.log(url)
+		
 		 valeur=0;
 		
 		    links.splice(compteur,1);
@@ -76,17 +114,23 @@ if(isHotel.includes('Hôtel')===true && isRestaurant.includes('Restaurant')===tr
 	  }
 	  compteur++;
 	 // console.log(compteur);
+	 
+	 
+	
+	 
       if (completed_requests++ == links.length - 1) {
         // All downloads are completed
  //       console.log('body:', responses.join());
+  
       }
 	  
 //console.log(links);
+
 //console.log(links.length);      
   //  console.log(nomHotel);
   //console.log(nomRestaurant);
   });
-  
+ 
 
 })
 
