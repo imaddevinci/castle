@@ -4,6 +4,7 @@ var express = require('express');
 var fs = require('fs');
 const cheerio = require('cheerio');
 var http = require('http');   
+var sleep = require('thread-sleep');
 var nomHotel=[];
 var nomRestaurant=[];
 
@@ -11,95 +12,65 @@ async function sandbox(){
   
 
 request(
-    { uri: "https://www.relaischateaux.com/fr/site-map/etablissements"},
+    { uri: "https://www.relaischateaux.com/fr/site-map/etablissements"},//requete 
      function(error, response, body) {
-      //  console.log(body);
-	//  var js= JSON.stringify(body);
-	 
-	 
-	
+    
 	  var $ = cheerio.load(body);
-	  
-	  //console.log($('#countryF').find("h3:contains('France')").parent().find('.listDiamond > li ').text());
 	  
 var links = [];
 $('#countryF').find("h3:contains('France')").parent().find('.listDiamond > li').each( function (index, value) {
-   // var link = $(value).attr('href');
-    links.push($(this).find("a").first()[0].attribs.href);
-	//console.log(links);
-	
-	
-	
-	
-	
+    links.push($(this).find("a").first()[0].attribs.href);	
 	});
-	
-	
-	//console.log(links);
+
 	var i =0;
-var compteurHR=0;
+	var compteurHR=0;
 
 		var compteur=0;
 		var completed_requests = 0;
 		
 		links.forEach(async function(url) {
-  var responses = [];
+		var responses = [];
   request({uri: url}, async function(error, response, body) {
     $ = cheerio.load(body);
- // console.log($.html());
- var isHotel="";
- try {
- isHotel= await  $('.jsSecondNavMain').find("li").find("a").first().text();
-}
-catch(error) {
-  console.error(error);
-  // expected output: ReferenceError: nonExistentFunction is not defined
-  // Note - error messages will vary depending on browser
-}
+	var isHotel="";
+ 
+	isHotel= await  $('.jsSecondNavMain').find("li").find("a").first().text();
 
 
 
 if(isHotel.includes('Hôtel')===true )
-      {var isRestaurant="";
-		  try{
+      { 
+		  
 			  
-			  isRestaurant = await $('.jsSecondNavMain').find("li").next().find("a").first().text();
-		 
-		  }catch(error) {
-  console.error(error);
-  // expected output: ReferenceError: nonExistentFunction is not defined
-  // Note - error messages will vary depending on browser
-}
+			var  isRestaurant = await $('.jsSecondNavMain').find("li").next().find("a").first().text();
 		 
 		  if (isRestaurant.includes('Restaurant')===true)
 		  {
-			 // console.log(isHotel);
-			 // console.log(isRestaurant);
-			  	//console.log("good")
-		//console.log(url)
-		valeur =1;
-	//	console.log(compteur);
-	//(".ajaxPages").find(".tabRestaurant").find
-		try{
+			 
+		valeur =1;	
+		//	console.log(compteurHR);
 			
-			
-						 // console.log($("h3:contains(mainTitle2)").text());
-
-			  console.log($('.ajaxPages').html());
-console.log("==========");
-			//  console.log($('.headings').find("*[itemprop = 'name']").text());
-		 
-		  }catch(error) {
-  console.error(error);
-  console.log("error");
-  // expected output: ReferenceError: nonExistentFunction is not defined
-  // Note - error messages will vary depending on browser
+//var rest1 =$('.jsSecondNavSub').find("li").first().find("a").text(); var rest2 = null;
+//nomRestaurant.push(rest1);
+if($('.jsSecondNavSub').find("li").next().find("a").text() != null)
+{
+	
+  //rest2 = $('.jsSecondNavSub').find("li").next().find("a").text();
+  nomRestaurant.push($('.jsSecondNavSub').find("li").first().find("a").text(),$('.jsSecondNavSub').find("li").next().find("a").text());
+  //console.log(rest2);
 }
+			  
+			/*  sleep(10000);
+			  console.log(rest1);*/
+			 // console.log($('.headings').find("*[itemprop = 'name']").text());
+
+			 console.log(compteurHR);
+	nomHotel.push($('.headings').find("*[itemprop = 'name']").text());
 
 
 		compteurHR++;
 		
-		console.log(compteurHR);
+		
 
 			  
 		  }
@@ -109,7 +80,7 @@ console.log("==========");
 		
 		 valeur=0;
 		
-		    links.splice(compteur,1);
+		   // links.splice(compteur,1);
 		  
 	  }
 	  compteur++;
@@ -118,34 +89,23 @@ console.log("==========");
 	 
 	
 	 
-      if (completed_requests++ == links.length - 1) {
+      if (compteur ==links.length-1) {
         // All downloads are completed
  //       console.log('body:', responses.join());
+  sleep(10000);
+	  nomHotel.forEach(function(item, index, array) {
+  console.log(item, index);
+   });
+   nomRestaurant.forEach(function(item, index, array) {
+  console.log(item, index);
+   });
   
-      }
-	  
-//console.log(links);
-
-//console.log(links.length);      
-  //  console.log(nomHotel);
-  //console.log(nomRestaurant);
-  });
+	  }
  
+   
+});
 
 })
-
- 
-
-
-
-
-
-
-
-
-
-
-
 
 
      }
