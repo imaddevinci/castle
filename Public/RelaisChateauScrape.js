@@ -6,12 +6,18 @@ const cheerio = require('cheerio');
 var http = require('http');   
 var sleep = require('thread-sleep');
 const fetch = require('node-fetch');
-var nomHotel=[[],[],[]];
 var nomRestaurant=[];
+var tab = new Object();
+
+
+
+
 
 function sandbox(){
-  
+	
 
+	 
+	 
 request(
     { uri: "https://www.relaischateaux.com/fr/site-map/etablissements"},//requete 
      function(error, response, body) {
@@ -30,7 +36,6 @@ $('#countryF').find("h3:contains('France')").parent().find('.listDiamond > li').
 		var completed_requests = 0;
 		
 		links.forEach(function(url) {
-		var responses = [];
 	request({uri: url}, function(error, response, body) {
     $ = cheerio.load(body);
 	var isHotel="";
@@ -66,7 +71,7 @@ if(isHotel.includes('Hôtel')===true )
 		 
 		}
 
-			nomRestaurant.push(rest1);
+
 			//nomRestaurant.push(rest2);
 			//price(url);
 		
@@ -75,9 +80,11 @@ if(isHotel.includes('Hôtel')===true )
 			 price =$('.innerHotelHeader').find('.priceTag').find('.tag.tagTall.tagLight').find('.price').text()
 			 hotel=$('.headings').find("*[itemprop = 'name']").text().trim();
 			 
-			 nomHotel[0].push(hotel);
-			 nomHotel[1].push(rest1);
-		     nomHotel[2].push(price);
+			 
+			 tab[hotel]=rest1;
+		//	 nomHotel[0].push(hotel);
+		//	 nomHotel[1].push(rest1);
+		 //    nomHotel[2].push(price);
 			 compteurHR++;
 		  }
 	
@@ -90,24 +97,27 @@ if(isHotel.includes('Hôtel')===true )
 		  
 	  }
 	  compteur++;
-	  console.log($('#etablissement-room-list').html());
+	 // console.log($('#etablissement-room-list').html());
 	 
 	 
 	
 	 
       if (compteur ==links.length-1) {
-        // All downloads are completed
- //       console.log('body:', responses.join());
+       
  // sleep(10000);
-	nomHotel.forEach(function(item, index, array) {
-	console.log(item, index);
-	});
+	// nomHotel.forEach(function(item, index, array) {
+	// console.log(item, index);
+	//});
 
+// for(var i in tab)
+// {
+     // console.log(i + "=" + tab[i]);
+// }
 
 	// nomRestaurant.forEach(function(item, index, array) {
 	 // console.log(item, index);
 	 // });
-  
+  exports.sejour =tab;
 	  }
  
    
