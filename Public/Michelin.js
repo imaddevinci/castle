@@ -3,8 +3,11 @@ var bodyParser = require('body-parser');
 var express = require('express');
 var fs = require('fs');
 const cheerio = require('cheerio');
+var start = [];
 
 
+exports.start = function mic()
+{
 var i=1;
 while(i<35)
 {
@@ -20,15 +23,13 @@ request(
 	  
 	//let map =$('.mainTitle3 fzMedium cGrey noVerticalMargin');
 //	console.log(map.html());
-var text = $('.poi_card-display-title');
-console.log(text.text());
-//console.log(text[11].children[0].data);
-
-
-
+var etoile = $('.poi_card-display-title');
+start.push(etoile.text());
+console.log(etoile.text());
     }
 	
 	
 );
 i++;
+}
 }
