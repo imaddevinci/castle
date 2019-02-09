@@ -6,7 +6,7 @@ const cheerio = require('cheerio');
 var start = [];
 
 
-exports.start = function mic()
+ function mic()
 {
 var i=1;
 while(i<35)
@@ -32,4 +32,7 @@ console.log(etoile.text());
 );
 i++;
 }
+exports.start =start;
 }
+
+mic();

@@ -6,4 +6,4 @@ const cheerio = require('cheerio');
 const michelin = require('./Michelin');
 
 
-michelin.start();
+console.log(michelin.start);
