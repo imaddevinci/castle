@@ -11,5 +11,8 @@
     "url": "imaddevinci"
   },
   "author": "imad",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "request-promise": "^4.2.2"
+  }
 }

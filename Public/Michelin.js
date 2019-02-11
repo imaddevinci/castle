@@ -25,7 +25,7 @@ request(
 //	console.log(map.html());
 var etoile = $('.poi_card-display-title');
 start.push(etoile.text());
-console.log(etoile.text());
+//console.log(etoile.text());
     }
 	
 	
