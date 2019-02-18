@@ -59,7 +59,7 @@ async function Price(url, id, mois) {
             } else {
 
                 samdiOccupe["saturday " + i] = "all ready booked";
-                cost["saturday " + i] = "all ready booked";
+                cost["saturday " + i] = "already booked";
 
             }
         }

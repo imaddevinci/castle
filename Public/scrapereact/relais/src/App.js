@@ -54,7 +54,7 @@ class App extends Component {
 								
 								
 									var week_end = new Date( '2019-'+mois+'-'+i);
-								//	console.log(week_end.getDay());
+								
 									
 									if (week_end.getDay() == 6 )
 									{

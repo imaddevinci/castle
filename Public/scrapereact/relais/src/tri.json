@@ -1,5 +1,116 @@
 [
     {
+        "name": "Flocons de Sel",
+        "restaurant1": "Flocons de Sel",
+        "restaurant2": "Flocons Village",
+        "date": [
+            {
+                "mois": 2,
+                "prix": {
+                    "saturday 2": "already booked",
+                    "saturday 9": "already booked",
+                    "saturday 16": "already booked",
+                    "saturday 23": "US$1034",
+                    "saturday 30": "already booked"
+                }
+            },
+            {
+                "mois": 3,
+                "prix": {
+                    "saturday 2": "US$1034",
+                    "saturday 9": "US$1034",
+                    "saturday 16": "already booked",
+                    "saturday 23": "already booked",
+                    "saturday 30": "already booked"
+                }
+            },
+            {
+                "mois": 4,
+                "prix": {
+                    "saturday 6": "already booked",
+                    "saturday 13": "already booked",
+                    "saturday 20": "already booked",
+                    "saturday 27": "already booked"
+                }
+            },
+            {
+                "mois": 5,
+                "prix": {
+                    "saturday 4": "already booked",
+                    "saturday 11": "already booked",
+                    "saturday 18": "already booked",
+                    "saturday 25": "already booked"
+                }
+            },
+            {
+                "mois": 6,
+                "prix": {
+                    "saturday 1": "already booked",
+                    "saturday 8": "already booked",
+                    "saturday 15": "already booked",
+                    "saturday 22": "already booked",
+                    "saturday 29": "already booked"
+                }
+            },
+            {
+                "mois": 7,
+                "prix": {
+                    "saturday 6": "already booked",
+                    "saturday 13": "already booked",
+                    "saturday 20": "already booked",
+                    "saturday 27": "already booked"
+                }
+            },
+            {
+                "mois": 8,
+                "prix": {
+                    "saturday 3": "already booked",
+                    "saturday 10": "already booked",
+                    "saturday 17": "already booked",
+                    "saturday 24": "already booked",
+                    "saturday 31": "already booked"
+                }
+            },
+            {
+                "mois": 9,
+                "prix": {
+                    "saturday 7": "already booked",
+                    "saturday 14": "already booked",
+                    "saturday 21": "already booked",
+                    "saturday 28": "already booked"
+                }
+            },
+            {
+                "mois": 10,
+                "prix": {
+                    "saturday 5": "already booked",
+                    "saturday 12": "already booked",
+                    "saturday 19": "already booked",
+                    "saturday 26": "already booked"
+                }
+            },
+            {
+                "mois": 11,
+                "prix": {
+                    "saturday 2": "already booked",
+                    "saturday 9": "already booked",
+                    "saturday 16": "already booked",
+                    "saturday 23": "already booked",
+                    "saturday 30": "already booked"
+                }
+            },
+            {
+                "mois": 12,
+                "prix": {
+                    "saturday 7": "already booked",
+                    "saturday 14": "already booked",
+                    "saturday 21": "already booked",
+                    "saturday 28": "already booked"
+                }
+            }
+        ]
+    },
+    {
         "name": "La Bonne Étape",
         "restaurant1": "La Bonne Étape",
         "restaurant2": "Au Goût du Jour",
@@ -7,11 +118,11 @@
             {
                 "mois": 2,
                 "prix": {
-                    "saturday 2": "all ready booked",
-                    "saturday 9": "all ready booked",
+                    "saturday 2": "already booked",
+                    "saturday 9": "already booked",
                     "saturday 16": "US$183",
                     "saturday 23": "US$194",
-                    "saturday 30": "all ready booked"
+                    "saturday 30": "already booked"
                 }
             },
             {
@@ -119,10 +230,10 @@
                 "mois": 2,
                 "prix": {
                     "saturday 2": "US$193",
-                    "saturday 9": "all ready booked",
+                    "saturday 9": "already booked",
                     "saturday 16": "US$193",
                     "saturday 23": "US$193",
-                    "saturday 30": "all ready booked"
+                    "saturday 30": "already booked"
                 }
             },
             {
@@ -158,7 +269,7 @@
                 "prix": {
                     "saturday 1": "US$356",
                     "saturday 8": "US$243",
-                    "saturday 15": "all ready booked",
+                    "saturday 15": "already booked",
                     "saturday 22": "US$243",
                     "saturday 29": "US$243"
                 }
@@ -230,10 +341,10 @@
                 "mois": 2,
                 "prix": {
                     "saturday 2": "US$249",
-                    "saturday 9": "all ready booked",
+                    "saturday 9": "already booked",
                     "saturday 16": "US$249",
                     "saturday 23": "US$249",
-                    "saturday 30": "all ready booked"
+                    "saturday 30": "already booked"
                 }
             },
             {
@@ -249,7 +360,7 @@
             {
                 "mois": 4,
                 "prix": {
-                    "saturday 6": "US$249",
+                    "saturday 6": "already booked",
                     "saturday 13": "US$249",
                     "saturday 20": "US$249",
                     "saturday 27": "US$249"
@@ -316,15 +427,15 @@
                 "prix": {
                     "saturday 2": "US$249",
                     "saturday 9": "US$249",
-                    "saturday 16": "all ready booked",
-                    "saturday 23": "all ready booked",
-                    "saturday 30": "all ready booked"
+                    "saturday 16": "already booked",
+                    "saturday 23": "already booked",
+                    "saturday 30": "already booked"
                 }
             },
             {
                 "mois": 12,
                 "prix": {
-                    "saturday 7": "all ready booked",
+                    "saturday 7": "already booked",
                     "saturday 14": "US$249",
                     "saturday 21": "US$249",
                     "saturday 28": "US$226"
@@ -340,11 +451,11 @@
             {
                 "mois": 2,
                 "prix": {
-                    "saturday 2": "all ready booked",
-                    "saturday 9": "all ready booked",
+                    "saturday 2": "already booked",
+                    "saturday 9": "already booked",
                     "saturday 16": "US$413",
                     "saturday 23": "US$413",
-                    "saturday 30": "all ready booked"
+                    "saturday 30": "already booked"
                 }
             },
             {
@@ -363,7 +474,7 @@
                     "saturday 6": "US$255",
                     "saturday 13": "US$334",
                     "saturday 20": "US$390",
-                    "saturday 27": "US$334"
+                    "saturday 27": "US$390"
                 }
             },
             {
@@ -380,7 +491,7 @@
                 "prix": {
                     "saturday 1": "US$334",
                     "saturday 8": "US$255",
-                    "saturday 15": "all ready booked",
+                    "saturday 15": "already booked",
                     "saturday 22": "US$509",
                     "saturday 29": "US$390"
                 }
@@ -398,7 +509,7 @@
                 "mois": 8,
                 "prix": {
                     "saturday 3": "US$334",
-                    "saturday 10": "all ready booked",
+                    "saturday 10": "already booked",
                     "saturday 17": "US$255",
                     "saturday 24": "US$255",
                     "saturday 31": "US$255"
@@ -427,7 +538,7 @@
                 "prix": {
                     "saturday 2": "US$255",
                     "saturday 9": "US$255",
-                    "saturday 16": "all ready booked",
+                    "saturday 16": "already booked",
                     "saturday 23": "US$255",
                     "saturday 30": "US$255"
                 }
@@ -451,17 +562,17 @@
             {
                 "mois": 2,
                 "prix": {
-                    "saturday 2": "all ready booked",
+                    "saturday 2": "already booked",
                     "saturday 9": "US$283",
                     "saturday 16": "US$283",
-                    "saturday 23": "US$283",
-                    "saturday 30": "all ready booked"
+                    "saturday 23": "US$311",
+                    "saturday 30": "already booked"
                 }
             },
             {
                 "mois": 3,
                 "prix": {
-                    "saturday 2": "US$311",
+                    "saturday 2": "US$339",
                     "saturday 9": "US$311",
                     "saturday 16": "US$339",
                     "saturday 23": "US$311",
@@ -471,16 +582,16 @@
             {
                 "mois": 4,
                 "prix": {
-                    "saturday 6": "US$339",
+                    "saturday 6": "US$368",
                     "saturday 13": "US$368",
-                    "saturday 20": "US$396",
+                    "saturday 20": "US$424",
                     "saturday 27": "US$396"
                 }
             },
             {
                 "mois": 5,
                 "prix": {
-                    "saturday 4": "US$552",
+                    "saturday 4": "US$594",
                     "saturday 11": "US$368",
                     "saturday 18": "US$1181",
                     "saturday 25": "US$452"
@@ -499,18 +610,18 @@
             {
                 "mois": 7,
                 "prix": {
-                    "saturday 6": "US$452",
-                    "saturday 13": "US$509",
-                    "saturday 20": "US$481",
-                    "saturday 27": "US$1119"
+                    "saturday 6": "US$577",
+                    "saturday 13": "US$610",
+                    "saturday 20": "US$577",
+                    "saturday 27": "US$763"
                 }
             },
             {
                 "mois": 8,
                 "prix": {
-                    "saturday 3": "US$481",
-                    "saturday 10": "US$481",
-                    "saturday 17": "US$481",
+                    "saturday 3": "US$577",
+                    "saturday 10": "US$577",
+                    "saturday 17": "US$577",
                     "saturday 24": "US$452",
                     "saturday 31": "US$481"
                 }
@@ -528,139 +639,28 @@
                 "mois": 10,
                 "prix": {
                     "saturday 5": "US$339",
-                    "saturday 12": "all ready booked",
-                    "saturday 19": "all ready booked",
-                    "saturday 26": "all ready booked"
+                    "saturday 12": "already booked",
+                    "saturday 19": "already booked",
+                    "saturday 26": "already booked"
                 }
             },
             {
                 "mois": 11,
                 "prix": {
-                    "saturday 2": "all ready booked",
-                    "saturday 9": "all ready booked",
-                    "saturday 16": "all ready booked",
-                    "saturday 23": "all ready booked",
-                    "saturday 30": "all ready booked"
+                    "saturday 2": "already booked",
+                    "saturday 9": "already booked",
+                    "saturday 16": "already booked",
+                    "saturday 23": "already booked",
+                    "saturday 30": "already booked"
                 }
             },
             {
                 "mois": 12,
                 "prix": {
-                    "saturday 7": "all ready booked",
-                    "saturday 14": "all ready booked",
-                    "saturday 21": "all ready booked",
-                    "saturday 28": "all ready booked"
-                }
-            }
-        ]
-    },
-    {
-        "name": "Château de Berne",
-        "restaurant1": "Le Jardin de Benjamin",
-        "restaurant2": "Le Bistrot",
-        "date": [
-            {
-                "mois": 2,
-                "prix": {
-                    "saturday 2": "all ready booked",
-                    "saturday 9": "all ready booked",
-                    "saturday 16": "all ready booked",
-                    "saturday 23": "all ready booked",
-                    "saturday 30": "all ready booked"
-                }
-            },
-            {
-                "mois": 3,
-                "prix": {
-                    "saturday 2": "US$386",
-                    "saturday 9": "US$318",
-                    "saturday 16": "US$318",
-                    "saturday 23": "US$318",
-                    "saturday 30": "US$318"
-                }
-            },
-            {
-                "mois": 4,
-                "prix": {
-                    "saturday 6": "US$373",
-                    "saturday 13": "US$318",
-                    "saturday 20": "US$492",
-                    "saturday 27": "US$492"
-                }
-            },
-            {
-                "mois": 5,
-                "prix": {
-                    "saturday 4": "US$492",
-                    "saturday 11": "US$626",
-                    "saturday 18": "US$492",
-                    "saturday 25": "all ready booked"
-                }
-            },
-            {
-                "mois": 6,
-                "prix": {
-                    "saturday 1": "US$609",
-                    "saturday 8": "all ready booked",
-                    "saturday 15": "all ready booked",
-                    "saturday 22": "all ready booked",
-                    "saturday 29": "US$627"
-                }
-            },
-            {
-                "mois": 7,
-                "prix": {
-                    "saturday 6": "US$609",
-                    "saturday 13": "US$609",
-                    "saturday 20": "US$627",
-                    "saturday 27": "US$609"
-                }
-            },
-            {
-                "mois": 8,
-                "prix": {
-                    "saturday 3": "US$609",
-                    "saturday 10": "US$609",
-                    "saturday 17": "US$609",
-                    "saturday 24": "US$609",
-                    "saturday 31": "US$609"
-                }
-            },
-            {
-                "mois": 9,
-                "prix": {
-                    "saturday 7": "US$609",
-                    "saturday 14": "all ready booked",
-                    "saturday 21": "US$609",
-                    "saturday 28": "all ready booked"
-                }
-            },
-            {
-                "mois": 10,
-                "prix": {
-                    "saturday 5": "US$373",
-                    "saturday 12": "US$373",
-                    "saturday 19": "US$373",
-                    "saturday 26": "US$373"
-                }
-            },
-            {
-                "mois": 11,
-                "prix": {
-                    "saturday 2": "US$373",
-                    "saturday 9": "US$318",
-                    "saturday 16": "US$281",
-                    "saturday 23": "US$281",
-                    "saturday 30": "US$281"
-                }
-            },
-            {
-                "mois": 12,
-                "prix": {
-                    "saturday 7": "US$281",
-                    "saturday 14": "US$281",
-                    "saturday 21": "US$281",
-                    "saturday 28": "US$319"
+                    "saturday 7": "already booked",
+                    "saturday 14": "already booked",
+                    "saturday 21": "already booked",
+                    "saturday 28": "already booked"
                 }
             }
         ]
@@ -673,17 +673,17 @@
             {
                 "mois": 2,
                 "prix": {
-                    "saturday 2": "all ready booked",
-                    "saturday 9": "all ready booked",
+                    "saturday 2": "already booked",
+                    "saturday 9": "already booked",
                     "saturday 16": "US$616",
                     "saturday 23": "US$362",
-                    "saturday 30": "all ready booked"
+                    "saturday 30": "already booked"
                 }
             },
             {
                 "mois": 3,
                 "prix": {
-                    "saturday 2": "US$362",
+                    "saturday 2": "US$616",
                     "saturday 9": "US$328",
                     "saturday 16": "US$328",
                     "saturday 23": "US$328",
@@ -702,8 +702,8 @@
             {
                 "mois": 5,
                 "prix": {
-                    "saturday 4": "US$356",
-                    "saturday 11": "US$317",
+                    "saturday 4": "US$520",
+                    "saturday 11": "US$452",
                     "saturday 18": "US$452",
                     "saturday 25": "US$452"
                 }
@@ -712,7 +712,7 @@
                 "mois": 6,
                 "prix": {
                     "saturday 1": "US$706",
-                    "saturday 8": "US$356",
+                    "saturday 8": "US$520",
                     "saturday 15": "US$356",
                     "saturday 22": "US$520",
                     "saturday 29": "US$520"
@@ -784,11 +784,11 @@
             {
                 "mois": 2,
                 "prix": {
-                    "saturday 2": "all ready booked",
+                    "saturday 2": "already booked",
                     "saturday 9": "US$328",
                     "saturday 16": "US$356",
                     "saturday 23": "US$328",
-                    "saturday 30": "all ready booked"
+                    "saturday 30": "already booked"
                 }
             },
             {
@@ -813,10 +813,10 @@
             {
                 "mois": 5,
                 "prix": {
-                    "saturday 4": "US$328",
+                    "saturday 4": "US$356",
                     "saturday 11": "US$328",
-                    "saturday 18": "US$292",
-                    "saturday 25": "US$292"
+                    "saturday 18": "US$328",
+                    "saturday 25": "US$328"
                 }
             },
             {
@@ -888,6 +888,228 @@
         ]
     },
     {
+        "name": "Château de Berne",
+        "restaurant1": "Le Jardin de Benjamin",
+        "restaurant2": "Le Bistrot",
+        "date": [
+            {
+                "mois": 2,
+                "prix": {
+                    "saturday 2": "already booked",
+                    "saturday 9": "already booked",
+                    "saturday 16": "already booked",
+                    "saturday 23": "already booked",
+                    "saturday 30": "already booked"
+                }
+            },
+            {
+                "mois": 3,
+                "prix": {
+                    "saturday 2": "US$386",
+                    "saturday 9": "US$373",
+                    "saturday 16": "US$373",
+                    "saturday 23": "US$373",
+                    "saturday 30": "US$373"
+                }
+            },
+            {
+                "mois": 4,
+                "prix": {
+                    "saturday 6": "US$318",
+                    "saturday 13": "US$318",
+                    "saturday 20": "US$492",
+                    "saturday 27": "US$492"
+                }
+            },
+            {
+                "mois": 5,
+                "prix": {
+                    "saturday 4": "US$492",
+                    "saturday 11": "US$626",
+                    "saturday 18": "US$492",
+                    "saturday 25": "already booked"
+                }
+            },
+            {
+                "mois": 6,
+                "prix": {
+                    "saturday 1": "US$609",
+                    "saturday 8": "already booked",
+                    "saturday 15": "already booked",
+                    "saturday 22": "already booked",
+                    "saturday 29": "US$627"
+                }
+            },
+            {
+                "mois": 7,
+                "prix": {
+                    "saturday 6": "US$609",
+                    "saturday 13": "US$609",
+                    "saturday 20": "US$627",
+                    "saturday 27": "US$609"
+                }
+            },
+            {
+                "mois": 8,
+                "prix": {
+                    "saturday 3": "US$609",
+                    "saturday 10": "US$609",
+                    "saturday 17": "US$609",
+                    "saturday 24": "US$609",
+                    "saturday 31": "US$609"
+                }
+            },
+            {
+                "mois": 9,
+                "prix": {
+                    "saturday 7": "US$609",
+                    "saturday 14": "already booked",
+                    "saturday 21": "US$609",
+                    "saturday 28": "already booked"
+                }
+            },
+            {
+                "mois": 10,
+                "prix": {
+                    "saturday 5": "US$373",
+                    "saturday 12": "US$373",
+                    "saturday 19": "US$373",
+                    "saturday 26": "US$373"
+                }
+            },
+            {
+                "mois": 11,
+                "prix": {
+                    "saturday 2": "US$373",
+                    "saturday 9": "US$318",
+                    "saturday 16": "US$281",
+                    "saturday 23": "US$281",
+                    "saturday 30": "US$281"
+                }
+            },
+            {
+                "mois": 12,
+                "prix": {
+                    "saturday 7": "US$281",
+                    "saturday 14": "US$281",
+                    "saturday 21": "US$281",
+                    "saturday 28": "US$319"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Maison Lameloise",
+        "restaurant1": "Maison Lameloise",
+        "restaurant2": "Pierre & Jean",
+        "date": [
+            {
+                "mois": 2,
+                "prix": {
+                    "saturday 2": "US$373",
+                    "saturday 9": "already booked",
+                    "saturday 16": "already booked",
+                    "saturday 23": "already booked",
+                    "saturday 30": "already booked"
+                }
+            },
+            {
+                "mois": 3,
+                "prix": {
+                    "saturday 2": "already booked",
+                    "saturday 9": "US$396",
+                    "saturday 16": "US$373",
+                    "saturday 23": "US$373",
+                    "saturday 30": "US$396"
+                }
+            },
+            {
+                "mois": 4,
+                "prix": {
+                    "saturday 6": "US$289",
+                    "saturday 13": "US$396",
+                    "saturday 20": "already booked",
+                    "saturday 27": "US$289"
+                }
+            },
+            {
+                "mois": 5,
+                "prix": {
+                    "saturday 4": "US$224",
+                    "saturday 11": "US$373",
+                    "saturday 18": "US$224",
+                    "saturday 25": "US$373"
+                }
+            },
+            {
+                "mois": 6,
+                "prix": {
+                    "saturday 1": "US$396",
+                    "saturday 8": "US$224",
+                    "saturday 15": "US$224",
+                    "saturday 22": "US$224",
+                    "saturday 29": "US$224"
+                }
+            },
+            {
+                "mois": 7,
+                "prix": {
+                    "saturday 6": "US$305",
+                    "saturday 13": "US$224",
+                    "saturday 20": "US$224",
+                    "saturday 27": "US$224"
+                }
+            },
+            {
+                "mois": 8,
+                "prix": {
+                    "saturday 3": "US$224",
+                    "saturday 10": "US$224",
+                    "saturday 17": "US$224",
+                    "saturday 24": "US$224",
+                    "saturday 31": "already booked"
+                }
+            },
+            {
+                "mois": 9,
+                "prix": {
+                    "saturday 7": "US$224",
+                    "saturday 14": "US$224",
+                    "saturday 21": "US$224",
+                    "saturday 28": "US$224"
+                }
+            },
+            {
+                "mois": 10,
+                "prix": {
+                    "saturday 5": "US$224",
+                    "saturday 12": "US$224",
+                    "saturday 19": "US$224",
+                    "saturday 26": "US$224"
+                }
+            },
+            {
+                "mois": 11,
+                "prix": {
+                    "saturday 2": "US$224",
+                    "saturday 9": "US$224",
+                    "saturday 16": "US$224",
+                    "saturday 23": "US$215",
+                    "saturday 30": "US$215"
+                }
+            },
+            {
+                "mois": 12,
+                "prix": {
+                    "saturday 7": "US$215",
+                    "saturday 14": "US$215",
+                    "saturday 21": "US$215",
+                    "saturday 28": "already booked"
+                }
+            }
+        ]
+    },
+    {
         "name": "Château de La Chèvre d’Or",
         "restaurant1": "La Chèvre d'Or",
         "restaurant2": "Autres restaurants",
@@ -895,18 +1117,18 @@
             {
                 "mois": 2,
                 "prix": {
-                    "saturday 2": "all ready booked",
-                    "saturday 9": "all ready booked",
-                    "saturday 16": "all ready booked",
-                    "saturday 23": "all ready booked",
-                    "saturday 30": "all ready booked"
+                    "saturday 2": "already booked",
+                    "saturday 9": "already booked",
+                    "saturday 16": "already booked",
+                    "saturday 23": "already booked",
+                    "saturday 30": "already booked"
                 }
             },
             {
                 "mois": 3,
                 "prix": {
-                    "saturday 2": "all ready booked",
-                    "saturday 9": "US$373",
+                    "saturday 2": "already booked",
+                    "saturday 9": "US$448",
                     "saturday 16": "US$340",
                     "saturday 23": "US$268",
                     "saturday 30": "US$373"
@@ -937,7 +1159,7 @@
                     "saturday 8": "US$486",
                     "saturday 15": "US$678",
                     "saturday 22": "US$678",
-                    "saturday 29": "US$678"
+                    "saturday 29": "US$814"
                 }
             },
             {
@@ -981,130 +1203,19 @@
                 "mois": 11,
                 "prix": {
                     "saturday 2": "US$268",
-                    "saturday 9": "all ready booked",
-                    "saturday 16": "all ready booked",
-                    "saturday 23": "all ready booked",
-                    "saturday 30": "all ready booked"
+                    "saturday 9": "already booked",
+                    "saturday 16": "already booked",
+                    "saturday 23": "already booked",
+                    "saturday 30": "already booked"
                 }
             },
             {
                 "mois": 12,
                 "prix": {
-                    "saturday 7": "all ready booked",
-                    "saturday 14": "all ready booked",
-                    "saturday 21": "all ready booked",
-                    "saturday 28": "all ready booked"
-                }
-            }
-        ]
-    },
-    {
-        "name": "Maison Lameloise",
-        "restaurant1": "Maison Lameloise",
-        "restaurant2": "Pierre & Jean",
-        "date": [
-            {
-                "mois": 2,
-                "prix": {
-                    "saturday 2": "US$373",
-                    "saturday 9": "all ready booked",
-                    "saturday 16": "all ready booked",
-                    "saturday 23": "all ready booked",
-                    "saturday 30": "all ready booked"
-                }
-            },
-            {
-                "mois": 3,
-                "prix": {
-                    "saturday 2": "all ready booked",
-                    "saturday 9": "US$396",
-                    "saturday 16": "US$373",
-                    "saturday 23": "US$373",
-                    "saturday 30": "US$396"
-                }
-            },
-            {
-                "mois": 4,
-                "prix": {
-                    "saturday 6": "US$289",
-                    "saturday 13": "US$396",
-                    "saturday 20": "all ready booked",
-                    "saturday 27": "US$289"
-                }
-            },
-            {
-                "mois": 5,
-                "prix": {
-                    "saturday 4": "US$224",
-                    "saturday 11": "US$289",
-                    "saturday 18": "US$224",
-                    "saturday 25": "US$373"
-                }
-            },
-            {
-                "mois": 6,
-                "prix": {
-                    "saturday 1": "US$224",
-                    "saturday 8": "US$224",
-                    "saturday 15": "US$224",
-                    "saturday 22": "US$224",
-                    "saturday 29": "US$224"
-                }
-            },
-            {
-                "mois": 7,
-                "prix": {
-                    "saturday 6": "US$224",
-                    "saturday 13": "US$224",
-                    "saturday 20": "US$224",
-                    "saturday 27": "US$224"
-                }
-            },
-            {
-                "mois": 8,
-                "prix": {
-                    "saturday 3": "US$224",
-                    "saturday 10": "US$224",
-                    "saturday 17": "US$224",
-                    "saturday 24": "US$224",
-                    "saturday 31": "all ready booked"
-                }
-            },
-            {
-                "mois": 9,
-                "prix": {
-                    "saturday 7": "US$224",
-                    "saturday 14": "US$224",
-                    "saturday 21": "US$224",
-                    "saturday 28": "US$224"
-                }
-            },
-            {
-                "mois": 10,
-                "prix": {
-                    "saturday 5": "US$224",
-                    "saturday 12": "US$224",
-                    "saturday 19": "US$224",
-                    "saturday 26": "US$224"
-                }
-            },
-            {
-                "mois": 11,
-                "prix": {
-                    "saturday 2": "US$224",
-                    "saturday 9": "US$224",
-                    "saturday 16": "US$224",
-                    "saturday 23": "US$215",
-                    "saturday 30": "US$215"
-                }
-            },
-            {
-                "mois": 12,
-                "prix": {
-                    "saturday 7": "US$215",
-                    "saturday 14": "US$215",
-                    "saturday 21": "US$215",
-                    "saturday 28": "all ready booked"
+                    "saturday 7": "already booked",
+                    "saturday 14": "already booked",
+                    "saturday 21": "already booked",
+                    "saturday 28": "already booked"
                 }
             }
         ]
@@ -1121,7 +1232,7 @@
                     "saturday 9": "US$448",
                     "saturday 16": "US$631",
                     "saturday 23": "US$448",
-                    "saturday 30": "all ready booked"
+                    "saturday 30": "already booked"
                 }
             },
             {
@@ -1159,7 +1270,7 @@
                     "saturday 8": "US$538",
                     "saturday 15": "US$644",
                     "saturday 22": "US$538",
-                    "saturday 29": "all ready booked"
+                    "saturday 29": "already booked"
                 }
             },
             {
@@ -1228,11 +1339,11 @@
             {
                 "mois": 2,
                 "prix": {
-                    "saturday 2": "all ready booked",
-                    "saturday 9": "all ready booked",
+                    "saturday 2": "already booked",
+                    "saturday 9": "already booked",
                     "saturday 16": "US$667",
                     "saturday 23": "US$667",
-                    "saturday 30": "all ready booked"
+                    "saturday 30": "already booked"
                 }
             },
             {
@@ -1339,11 +1450,11 @@
             {
                 "mois": 2,
                 "prix": {
-                    "saturday 2": "all ready booked",
+                    "saturday 2": "already booked",
                     "saturday 9": "US$249",
                     "saturday 16": "US$249",
                     "saturday 23": "US$261",
-                    "saturday 30": "all ready booked"
+                    "saturday 30": "already booked"
                 }
             },
             {
@@ -1378,7 +1489,7 @@
                 "mois": 6,
                 "prix": {
                     "saturday 1": "US$534",
-                    "saturday 8": "all ready booked",
+                    "saturday 8": "already booked",
                     "saturday 15": "US$534",
                     "saturday 22": "US$605",
                     "saturday 29": "US$605"
@@ -1443,228 +1554,6 @@
         ]
     },
     {
-        "name": "Hôtel Le Chabichou Restaurants & Spa",
-        "restaurant1": "Le Chabichou",
-        "restaurant2": "Le Chabotté",
-        "date": [
-            {
-                "mois": 2,
-                "prix": {
-                    "saturday 2": "all ready booked",
-                    "saturday 9": "all ready booked",
-                    "saturday 16": "all ready booked",
-                    "saturday 23": "US$1153",
-                    "saturday 30": "all ready booked"
-                }
-            },
-            {
-                "mois": 3,
-                "prix": {
-                    "saturday 2": "US$1175",
-                    "saturday 9": "US$735",
-                    "saturday 16": "US$836",
-                    "saturday 23": "US$531",
-                    "saturday 30": "US$735"
-                }
-            },
-            {
-                "mois": 4,
-                "prix": {
-                    "saturday 6": "US$531",
-                    "saturday 13": "all ready booked",
-                    "saturday 20": "all ready booked",
-                    "saturday 27": "all ready booked"
-                }
-            },
-            {
-                "mois": 5,
-                "prix": {
-                    "saturday 4": "all ready booked",
-                    "saturday 11": "all ready booked",
-                    "saturday 18": "all ready booked",
-                    "saturday 25": "all ready booked"
-                }
-            },
-            {
-                "mois": 6,
-                "prix": {
-                    "saturday 1": "all ready booked",
-                    "saturday 8": "all ready booked",
-                    "saturday 15": "all ready booked",
-                    "saturday 22": "all ready booked",
-                    "saturday 29": "all ready booked"
-                }
-            },
-            {
-                "mois": 7,
-                "prix": {
-                    "saturday 6": "all ready booked",
-                    "saturday 13": "all ready booked",
-                    "saturday 20": "all ready booked",
-                    "saturday 27": "all ready booked"
-                }
-            },
-            {
-                "mois": 8,
-                "prix": {
-                    "saturday 3": "all ready booked",
-                    "saturday 10": "all ready booked",
-                    "saturday 17": "all ready booked",
-                    "saturday 24": "all ready booked",
-                    "saturday 31": "all ready booked"
-                }
-            },
-            {
-                "mois": 9,
-                "prix": {
-                    "saturday 7": "all ready booked",
-                    "saturday 14": "all ready booked",
-                    "saturday 21": "all ready booked",
-                    "saturday 28": "all ready booked"
-                }
-            },
-            {
-                "mois": 10,
-                "prix": {
-                    "saturday 5": "all ready booked",
-                    "saturday 12": "all ready booked",
-                    "saturday 19": "all ready booked",
-                    "saturday 26": "all ready booked"
-                }
-            },
-            {
-                "mois": 11,
-                "prix": {
-                    "saturday 2": "all ready booked",
-                    "saturday 9": "all ready booked",
-                    "saturday 16": "all ready booked",
-                    "saturday 23": "all ready booked",
-                    "saturday 30": "all ready booked"
-                }
-            },
-            {
-                "mois": 12,
-                "prix": {
-                    "saturday 7": "all ready booked",
-                    "saturday 14": "all ready booked",
-                    "saturday 21": "all ready booked",
-                    "saturday 28": "all ready booked"
-                }
-            }
-        ]
-    },
-    {
-        "name": "Hôtel Les Barmes de l'Ours",
-        "restaurant1": "La Table de l'Ours",
-        "restaurant2": "Autres restaurants",
-        "date": [
-            {
-                "mois": 2,
-                "prix": {
-                    "saturday 2": "US$492",
-                    "saturday 9": "US$605",
-                    "saturday 16": "all ready booked",
-                    "saturday 23": "US$1074",
-                    "saturday 30": "all ready booked"
-                }
-            },
-            {
-                "mois": 3,
-                "prix": {
-                    "saturday 2": "US$1531",
-                    "saturday 9": "US$769",
-                    "saturday 16": "US$1316",
-                    "saturday 23": "US$1316",
-                    "saturday 30": "US$368"
-                }
-            },
-            {
-                "mois": 4,
-                "prix": {
-                    "saturday 6": "US$757",
-                    "saturday 13": "US$594",
-                    "saturday 20": "US$368",
-                    "saturday 27": "all ready booked"
-                }
-            },
-            {
-                "mois": 5,
-                "prix": {
-                    "saturday 4": "all ready booked",
-                    "saturday 11": "all ready booked",
-                    "saturday 18": "all ready booked",
-                    "saturday 25": "all ready booked"
-                }
-            },
-            {
-                "mois": 6,
-                "prix": {
-                    "saturday 1": "all ready booked",
-                    "saturday 8": "all ready booked",
-                    "saturday 15": "all ready booked",
-                    "saturday 22": "all ready booked",
-                    "saturday 29": "all ready booked"
-                }
-            },
-            {
-                "mois": 7,
-                "prix": {
-                    "saturday 6": "all ready booked",
-                    "saturday 13": "all ready booked",
-                    "saturday 20": "all ready booked",
-                    "saturday 27": "all ready booked"
-                }
-            },
-            {
-                "mois": 8,
-                "prix": {
-                    "saturday 3": "all ready booked",
-                    "saturday 10": "all ready booked",
-                    "saturday 17": "all ready booked",
-                    "saturday 24": "all ready booked",
-                    "saturday 31": "all ready booked"
-                }
-            },
-            {
-                "mois": 9,
-                "prix": {
-                    "saturday 7": "all ready booked",
-                    "saturday 14": "all ready booked",
-                    "saturday 21": "all ready booked",
-                    "saturday 28": "all ready booked"
-                }
-            },
-            {
-                "mois": 10,
-                "prix": {
-                    "saturday 5": "all ready booked",
-                    "saturday 12": "all ready booked",
-                    "saturday 19": "all ready booked",
-                    "saturday 26": "all ready booked"
-                }
-            },
-            {
-                "mois": 11,
-                "prix": {
-                    "saturday 2": "all ready booked",
-                    "saturday 9": "all ready booked",
-                    "saturday 16": "all ready booked",
-                    "saturday 23": "all ready booked",
-                    "saturday 30": "all ready booked"
-                }
-            },
-            {
-                "mois": 12,
-                "prix": {
-                    "saturday 7": "all ready booked",
-                    "saturday 14": "all ready booked",
-                    "saturday 21": "all ready booked",
-                    "saturday 28": "all ready booked"
-                }
-            }
-        ]
-    },
-    {
         "name": "Hameau Albert Ier",
         "restaurant1": "Albert 1er",
         "restaurant2": "La Maison Carrier",
@@ -1673,17 +1562,17 @@
                 "mois": 2,
                 "prix": {
                     "saturday 2": "US$1898",
-                    "saturday 9": "all ready booked",
-                    "saturday 16": "all ready booked",
-                    "saturday 23": "US$447",
-                    "saturday 30": "all ready booked"
+                    "saturday 9": "already booked",
+                    "saturday 16": "already booked",
+                    "saturday 23": "US$627",
+                    "saturday 30": "already booked"
                 }
             },
             {
                 "mois": 3,
                 "prix": {
                     "saturday 2": "US$356",
-                    "saturday 9": "US$814",
+                    "saturday 9": "US$627",
                     "saturday 16": "US$627",
                     "saturday 23": "US$627",
                     "saturday 30": "US$588"
@@ -1720,7 +1609,7 @@
             {
                 "mois": 7,
                 "prix": {
-                    "saturday 6": "US$285",
+                    "saturday 6": "US$413",
                     "saturday 13": "US$234",
                     "saturday 20": "US$285",
                     "saturday 27": "US$285"
@@ -1758,19 +1647,241 @@
                 "mois": 11,
                 "prix": {
                     "saturday 2": "US$413",
-                    "saturday 9": "all ready booked",
-                    "saturday 16": "all ready booked",
-                    "saturday 23": "all ready booked",
-                    "saturday 30": "all ready booked"
+                    "saturday 9": "already booked",
+                    "saturday 16": "already booked",
+                    "saturday 23": "already booked",
+                    "saturday 30": "already booked"
                 }
             },
             {
                 "mois": 12,
                 "prix": {
-                    "saturday 7": "all ready booked",
-                    "saturday 14": "all ready booked",
-                    "saturday 21": "all ready booked",
-                    "saturday 28": "all ready booked"
+                    "saturday 7": "already booked",
+                    "saturday 14": "already booked",
+                    "saturday 21": "already booked",
+                    "saturday 28": "already booked"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Hôtel Le Chabichou Restaurants & Spa",
+        "restaurant1": "Le Chabichou",
+        "restaurant2": "Le Chabotté",
+        "date": [
+            {
+                "mois": 2,
+                "prix": {
+                    "saturday 2": "already booked",
+                    "saturday 9": "already booked",
+                    "saturday 16": "already booked",
+                    "saturday 23": "US$1153",
+                    "saturday 30": "already booked"
+                }
+            },
+            {
+                "mois": 3,
+                "prix": {
+                    "saturday 2": "US$1175",
+                    "saturday 9": "US$735",
+                    "saturday 16": "US$836",
+                    "saturday 23": "US$531",
+                    "saturday 30": "US$735"
+                }
+            },
+            {
+                "mois": 4,
+                "prix": {
+                    "saturday 6": "US$531",
+                    "saturday 13": "already booked",
+                    "saturday 20": "already booked",
+                    "saturday 27": "already booked"
+                }
+            },
+            {
+                "mois": 5,
+                "prix": {
+                    "saturday 4": "already booked",
+                    "saturday 11": "already booked",
+                    "saturday 18": "already booked",
+                    "saturday 25": "already booked"
+                }
+            },
+            {
+                "mois": 6,
+                "prix": {
+                    "saturday 1": "already booked",
+                    "saturday 8": "already booked",
+                    "saturday 15": "already booked",
+                    "saturday 22": "already booked",
+                    "saturday 29": "already booked"
+                }
+            },
+            {
+                "mois": 7,
+                "prix": {
+                    "saturday 6": "already booked",
+                    "saturday 13": "already booked",
+                    "saturday 20": "already booked",
+                    "saturday 27": "already booked"
+                }
+            },
+            {
+                "mois": 8,
+                "prix": {
+                    "saturday 3": "already booked",
+                    "saturday 10": "already booked",
+                    "saturday 17": "already booked",
+                    "saturday 24": "already booked",
+                    "saturday 31": "already booked"
+                }
+            },
+            {
+                "mois": 9,
+                "prix": {
+                    "saturday 7": "already booked",
+                    "saturday 14": "already booked",
+                    "saturday 21": "already booked",
+                    "saturday 28": "already booked"
+                }
+            },
+            {
+                "mois": 10,
+                "prix": {
+                    "saturday 5": "already booked",
+                    "saturday 12": "already booked",
+                    "saturday 19": "already booked",
+                    "saturday 26": "already booked"
+                }
+            },
+            {
+                "mois": 11,
+                "prix": {
+                    "saturday 2": "already booked",
+                    "saturday 9": "already booked",
+                    "saturday 16": "already booked",
+                    "saturday 23": "already booked",
+                    "saturday 30": "already booked"
+                }
+            },
+            {
+                "mois": 12,
+                "prix": {
+                    "saturday 7": "already booked",
+                    "saturday 14": "already booked",
+                    "saturday 21": "already booked",
+                    "saturday 28": "already booked"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Hôtel Les Barmes de l'Ours",
+        "restaurant1": "La Table de l'Ours",
+        "restaurant2": "Autres restaurants",
+        "date": [
+            {
+                "mois": 2,
+                "prix": {
+                    "saturday 2": "US$492",
+                    "saturday 9": "US$605",
+                    "saturday 16": "already booked",
+                    "saturday 23": "US$1074",
+                    "saturday 30": "already booked"
+                }
+            },
+            {
+                "mois": 3,
+                "prix": {
+                    "saturday 2": "US$1531",
+                    "saturday 9": "US$769",
+                    "saturday 16": "US$1316",
+                    "saturday 23": "US$1531",
+                    "saturday 30": "US$594"
+                }
+            },
+            {
+                "mois": 4,
+                "prix": {
+                    "saturday 6": "US$757",
+                    "saturday 13": "US$594",
+                    "saturday 20": "US$368",
+                    "saturday 27": "already booked"
+                }
+            },
+            {
+                "mois": 5,
+                "prix": {
+                    "saturday 4": "already booked",
+                    "saturday 11": "already booked",
+                    "saturday 18": "already booked",
+                    "saturday 25": "already booked"
+                }
+            },
+            {
+                "mois": 6,
+                "prix": {
+                    "saturday 1": "already booked",
+                    "saturday 8": "already booked",
+                    "saturday 15": "already booked",
+                    "saturday 22": "already booked",
+                    "saturday 29": "already booked"
+                }
+            },
+            {
+                "mois": 7,
+                "prix": {
+                    "saturday 6": "already booked",
+                    "saturday 13": "already booked",
+                    "saturday 20": "already booked",
+                    "saturday 27": "already booked"
+                }
+            },
+            {
+                "mois": 8,
+                "prix": {
+                    "saturday 3": "already booked",
+                    "saturday 10": "already booked",
+                    "saturday 17": "already booked",
+                    "saturday 24": "already booked",
+                    "saturday 31": "already booked"
+                }
+            },
+            {
+                "mois": 9,
+                "prix": {
+                    "saturday 7": "already booked",
+                    "saturday 14": "already booked",
+                    "saturday 21": "already booked",
+                    "saturday 28": "already booked"
+                }
+            },
+            {
+                "mois": 10,
+                "prix": {
+                    "saturday 5": "already booked",
+                    "saturday 12": "already booked",
+                    "saturday 19": "already booked",
+                    "saturday 26": "already booked"
+                }
+            },
+            {
+                "mois": 11,
+                "prix": {
+                    "saturday 2": "already booked",
+                    "saturday 9": "already booked",
+                    "saturday 16": "already booked",
+                    "saturday 23": "already booked",
+                    "saturday 30": "already booked"
+                }
+            },
+            {
+                "mois": 12,
+                "prix": {
+                    "saturday 7": "already booked",
+                    "saturday 14": "already booked",
+                    "saturday 21": "already booked",
+                    "saturday 28": "already booked"
                 }
             }
         ]
@@ -1786,18 +1897,18 @@
                     "saturday 2": "US$305",
                     "saturday 9": "US$305",
                     "saturday 16": "US$305",
-                    "saturday 23": "all ready booked",
-                    "saturday 30": "all ready booked"
+                    "saturday 23": "already booked",
+                    "saturday 30": "already booked"
                 }
             },
             {
                 "mois": 3,
                 "prix": {
-                    "saturday 2": "all ready booked",
-                    "saturday 9": "all ready booked",
-                    "saturday 16": "all ready booked",
-                    "saturday 23": "all ready booked",
-                    "saturday 30": "all ready booked"
+                    "saturday 2": "already booked",
+                    "saturday 9": "already booked",
+                    "saturday 16": "already booked",
+                    "saturday 23": "already booked",
+                    "saturday 30": "already booked"
                 }
             },
             {
@@ -1823,9 +1934,9 @@
                 "prix": {
                     "saturday 1": "US$326",
                     "saturday 8": "US$326",
-                    "saturday 15": "all ready booked",
-                    "saturday 22": "all ready booked",
-                    "saturday 29": "all ready booked"
+                    "saturday 15": "already booked",
+                    "saturday 22": "already booked",
+                    "saturday 29": "already booked"
                 }
             },
             {
@@ -1843,7 +1954,7 @@
                     "saturday 3": "US$326",
                     "saturday 10": "US$346",
                     "saturday 17": "US$366",
-                    "saturday 24": "all ready booked",
+                    "saturday 24": "already booked",
                     "saturday 31": "US$305"
                 }
             },
@@ -1853,7 +1964,7 @@
                     "saturday 7": "US$305",
                     "saturday 14": "US$305",
                     "saturday 21": "US$285",
-                    "saturday 28": "all ready booked"
+                    "saturday 28": "already booked"
                 }
             },
             {
@@ -1870,18 +1981,18 @@
                 "prix": {
                     "saturday 2": "US$244",
                     "saturday 9": "US$224",
-                    "saturday 16": "all ready booked",
-                    "saturday 23": "all ready booked",
-                    "saturday 30": "all ready booked"
+                    "saturday 16": "already booked",
+                    "saturday 23": "already booked",
+                    "saturday 30": "already booked"
                 }
             },
             {
                 "mois": 12,
                 "prix": {
-                    "saturday 7": "all ready booked",
-                    "saturday 14": "all ready booked",
-                    "saturday 21": "all ready booked",
-                    "saturday 28": "all ready booked"
+                    "saturday 7": "already booked",
+                    "saturday 14": "already booked",
+                    "saturday 21": "already booked",
+                    "saturday 28": "already booked"
                 }
             }
         ]
@@ -1894,29 +2005,29 @@
             {
                 "mois": 2,
                 "prix": {
-                    "saturday 2": "all ready booked",
-                    "saturday 9": "all ready booked",
-                    "saturday 16": "all ready booked",
-                    "saturday 23": "all ready booked",
-                    "saturday 30": "all ready booked"
+                    "saturday 2": "already booked",
+                    "saturday 9": "already booked",
+                    "saturday 16": "already booked",
+                    "saturday 23": "already booked",
+                    "saturday 30": "already booked"
                 }
             },
             {
                 "mois": 3,
                 "prix": {
-                    "saturday 2": "all ready booked",
-                    "saturday 9": "all ready booked",
-                    "saturday 16": "all ready booked",
-                    "saturday 23": "all ready booked",
-                    "saturday 30": "all ready booked"
+                    "saturday 2": "already booked",
+                    "saturday 9": "already booked",
+                    "saturday 16": "already booked",
+                    "saturday 23": "already booked",
+                    "saturday 30": "already booked"
                 }
             },
             {
                 "mois": 4,
                 "prix": {
-                    "saturday 6": "all ready booked",
-                    "saturday 13": "all ready booked",
-                    "saturday 20": "all ready booked",
+                    "saturday 6": "already booked",
+                    "saturday 13": "already booked",
+                    "saturday 20": "already booked",
                     "saturday 27": "US$407"
                 }
             },
@@ -1963,7 +2074,7 @@
                 "prix": {
                     "saturday 7": "US$543",
                     "saturday 14": "US$543",
-                    "saturday 21": "US$407",
+                    "saturday 21": "US$520",
                     "saturday 28": "US$407"
                 }
             },
@@ -1971,28 +2082,28 @@
                 "mois": 10,
                 "prix": {
                     "saturday 5": "US$407",
-                    "saturday 12": "all ready booked",
-                    "saturday 19": "all ready booked",
-                    "saturday 26": "all ready booked"
+                    "saturday 12": "already booked",
+                    "saturday 19": "already booked",
+                    "saturday 26": "already booked"
                 }
             },
             {
                 "mois": 11,
                 "prix": {
-                    "saturday 2": "all ready booked",
-                    "saturday 9": "all ready booked",
-                    "saturday 16": "all ready booked",
-                    "saturday 23": "all ready booked",
-                    "saturday 30": "all ready booked"
+                    "saturday 2": "already booked",
+                    "saturday 9": "already booked",
+                    "saturday 16": "already booked",
+                    "saturday 23": "already booked",
+                    "saturday 30": "already booked"
                 }
             },
             {
                 "mois": 12,
                 "prix": {
-                    "saturday 7": "all ready booked",
-                    "saturday 14": "all ready booked",
-                    "saturday 21": "all ready booked",
-                    "saturday 28": "all ready booked"
+                    "saturday 7": "already booked",
+                    "saturday 14": "already booked",
+                    "saturday 21": "already booked",
+                    "saturday 28": "already booked"
                 }
             }
         ]
@@ -2005,30 +2116,30 @@
             {
                 "mois": 2,
                 "prix": {
-                    "saturday 2": "all ready booked",
-                    "saturday 9": "all ready booked",
-                    "saturday 16": "all ready booked",
-                    "saturday 23": "all ready booked",
-                    "saturday 30": "all ready booked"
+                    "saturday 2": "already booked",
+                    "saturday 9": "already booked",
+                    "saturday 16": "already booked",
+                    "saturday 23": "already booked",
+                    "saturday 30": "already booked"
                 }
             },
             {
                 "mois": 3,
                 "prix": {
-                    "saturday 2": "all ready booked",
-                    "saturday 9": "all ready booked",
-                    "saturday 16": "all ready booked",
-                    "saturday 23": "all ready booked",
-                    "saturday 30": "all ready booked"
+                    "saturday 2": "already booked",
+                    "saturday 9": "already booked",
+                    "saturday 16": "already booked",
+                    "saturday 23": "already booked",
+                    "saturday 30": "already booked"
                 }
             },
             {
                 "mois": 4,
                 "prix": {
-                    "saturday 6": "all ready booked",
-                    "saturday 13": "all ready booked",
-                    "saturday 20": "all ready booked",
-                    "saturday 27": "all ready booked"
+                    "saturday 6": "already booked",
+                    "saturday 13": "already booked",
+                    "saturday 20": "already booked",
+                    "saturday 27": "already booked"
                 }
             },
             {
@@ -2082,28 +2193,28 @@
                 "mois": 10,
                 "prix": {
                     "saturday 5": "US$276",
-                    "saturday 12": "all ready booked",
-                    "saturday 19": "all ready booked",
-                    "saturday 26": "all ready booked"
+                    "saturday 12": "already booked",
+                    "saturday 19": "already booked",
+                    "saturday 26": "already booked"
                 }
             },
             {
                 "mois": 11,
                 "prix": {
-                    "saturday 2": "all ready booked",
-                    "saturday 9": "all ready booked",
-                    "saturday 16": "all ready booked",
-                    "saturday 23": "all ready booked",
-                    "saturday 30": "all ready booked"
+                    "saturday 2": "already booked",
+                    "saturday 9": "already booked",
+                    "saturday 16": "already booked",
+                    "saturday 23": "already booked",
+                    "saturday 30": "already booked"
                 }
             },
             {
                 "mois": 12,
                 "prix": {
-                    "saturday 7": "all ready booked",
-                    "saturday 14": "all ready booked",
-                    "saturday 21": "all ready booked",
-                    "saturday 28": "all ready booked"
+                    "saturday 7": "already booked",
+                    "saturday 14": "already booked",
+                    "saturday 21": "already booked",
+                    "saturday 28": "already booked"
                 }
             }
         ]
@@ -2116,20 +2227,20 @@
             {
                 "mois": 2,
                 "prix": {
-                    "saturday 2": "all ready booked",
-                    "saturday 9": "all ready booked",
-                    "saturday 16": "all ready booked",
-                    "saturday 23": "all ready booked",
-                    "saturday 30": "all ready booked"
+                    "saturday 2": "already booked",
+                    "saturday 9": "already booked",
+                    "saturday 16": "already booked",
+                    "saturday 23": "already booked",
+                    "saturday 30": "already booked"
                 }
             },
             {
                 "mois": 3,
                 "prix": {
-                    "saturday 2": "all ready booked",
-                    "saturday 9": "all ready booked",
+                    "saturday 2": "already booked",
+                    "saturday 9": "already booked",
                     "saturday 16": "US$300",
-                    "saturday 23": "all ready booked",
+                    "saturday 23": "already booked",
                     "saturday 30": "US$300"
                 }
             },
@@ -2145,7 +2256,7 @@
             {
                 "mois": 5,
                 "prix": {
-                    "saturday 4": "all ready booked",
+                    "saturday 4": "already booked",
                     "saturday 11": "US$300",
                     "saturday 18": "US$300",
                     "saturday 25": "US$300"
@@ -2227,19 +2338,19 @@
             {
                 "mois": 2,
                 "prix": {
-                    "saturday 2": "all ready booked",
-                    "saturday 9": "all ready booked",
-                    "saturday 16": "all ready booked",
-                    "saturday 23": "all ready booked",
-                    "saturday 30": "all ready booked"
+                    "saturday 2": "already booked",
+                    "saturday 9": "already booked",
+                    "saturday 16": "already booked",
+                    "saturday 23": "already booked",
+                    "saturday 30": "already booked"
                 }
             },
             {
                 "mois": 3,
                 "prix": {
-                    "saturday 2": "all ready booked",
-                    "saturday 9": "all ready booked",
-                    "saturday 16": "all ready booked",
+                    "saturday 2": "already booked",
+                    "saturday 9": "already booked",
+                    "saturday 16": "already booked",
                     "saturday 23": "US$215",
                     "saturday 30": "US$215"
                 }
@@ -2297,35 +2408,35 @@
                     "saturday 7": "US$418",
                     "saturday 14": "US$418",
                     "saturday 21": "US$418",
-                    "saturday 28": "all ready booked"
+                    "saturday 28": "already booked"
                 }
             },
             {
                 "mois": 10,
                 "prix": {
                     "saturday 5": "US$305",
-                    "saturday 12": "all ready booked",
-                    "saturday 19": "all ready booked",
-                    "saturday 26": "all ready booked"
+                    "saturday 12": "already booked",
+                    "saturday 19": "already booked",
+                    "saturday 26": "already booked"
                 }
             },
             {
                 "mois": 11,
                 "prix": {
                     "saturday 2": "US$238",
-                    "saturday 9": "all ready booked",
-                    "saturday 16": "all ready booked",
-                    "saturday 23": "all ready booked",
-                    "saturday 30": "all ready booked"
+                    "saturday 9": "already booked",
+                    "saturday 16": "already booked",
+                    "saturday 23": "already booked",
+                    "saturday 30": "already booked"
                 }
             },
             {
                 "mois": 12,
                 "prix": {
-                    "saturday 7": "all ready booked",
-                    "saturday 14": "all ready booked",
-                    "saturday 21": "all ready booked",
-                    "saturday 28": "all ready booked"
+                    "saturday 7": "already booked",
+                    "saturday 14": "already booked",
+                    "saturday 21": "already booked",
+                    "saturday 28": "already booked"
                 }
             }
         ]
@@ -2338,37 +2449,37 @@
             {
                 "mois": 2,
                 "prix": {
-                    "saturday 2": "all ready booked",
-                    "saturday 9": "all ready booked",
-                    "saturday 16": "all ready booked",
-                    "saturday 23": "all ready booked",
-                    "saturday 30": "all ready booked"
+                    "saturday 2": "already booked",
+                    "saturday 9": "already booked",
+                    "saturday 16": "already booked",
+                    "saturday 23": "already booked",
+                    "saturday 30": "already booked"
                 }
             },
             {
                 "mois": 3,
                 "prix": {
-                    "saturday 2": "all ready booked",
-                    "saturday 9": "all ready booked",
-                    "saturday 16": "all ready booked",
-                    "saturday 23": "all ready booked",
-                    "saturday 30": "all ready booked"
+                    "saturday 2": "already booked",
+                    "saturday 9": "already booked",
+                    "saturday 16": "already booked",
+                    "saturday 23": "already booked",
+                    "saturday 30": "already booked"
                 }
             },
             {
                 "mois": 4,
                 "prix": {
-                    "saturday 6": "all ready booked",
-                    "saturday 13": "all ready booked",
-                    "saturday 20": "all ready booked",
-                    "saturday 27": "all ready booked"
+                    "saturday 6": "already booked",
+                    "saturday 13": "already booked",
+                    "saturday 20": "already booked",
+                    "saturday 27": "already booked"
                 }
             },
             {
                 "mois": 5,
                 "prix": {
                     "saturday 4": "US$373",
-                    "saturday 11": "all ready booked",
+                    "saturday 11": "already booked",
                     "saturday 18": "US$424",
                     "saturday 25": "US$396"
                 }
@@ -2398,8 +2509,8 @@
                     "saturday 3": "US$337",
                     "saturday 10": "US$337",
                     "saturday 17": "US$337",
-                    "saturday 24": "all ready booked",
-                    "saturday 31": "all ready booked"
+                    "saturday 24": "already booked",
+                    "saturday 31": "already booked"
                 }
             },
             {
@@ -2449,21 +2560,21 @@
             {
                 "mois": 2,
                 "prix": {
-                    "saturday 2": "all ready booked",
-                    "saturday 9": "all ready booked",
-                    "saturday 16": "all ready booked",
-                    "saturday 23": "all ready booked",
-                    "saturday 30": "all ready booked"
+                    "saturday 2": "already booked",
+                    "saturday 9": "already booked",
+                    "saturday 16": "already booked",
+                    "saturday 23": "already booked",
+                    "saturday 30": "already booked"
                 }
             },
             {
                 "mois": 3,
                 "prix": {
-                    "saturday 2": "all ready booked",
-                    "saturday 9": "all ready booked",
-                    "saturday 16": "all ready booked",
-                    "saturday 23": "all ready booked",
-                    "saturday 30": "all ready booked"
+                    "saturday 2": "already booked",
+                    "saturday 9": "already booked",
+                    "saturday 16": "already booked",
+                    "saturday 23": "already booked",
+                    "saturday 30": "already booked"
                 }
             },
             {
@@ -2528,26 +2639,26 @@
                     "saturday 5": "US$164",
                     "saturday 12": "US$164",
                     "saturday 19": "US$164",
-                    "saturday 26": "all ready booked"
+                    "saturday 26": "already booked"
                 }
             },
             {
                 "mois": 11,
                 "prix": {
-                    "saturday 2": "all ready booked",
-                    "saturday 9": "all ready booked",
-                    "saturday 16": "all ready booked",
-                    "saturday 23": "all ready booked",
-                    "saturday 30": "all ready booked"
+                    "saturday 2": "already booked",
+                    "saturday 9": "already booked",
+                    "saturday 16": "already booked",
+                    "saturday 23": "already booked",
+                    "saturday 30": "already booked"
                 }
             },
             {
                 "mois": 12,
                 "prix": {
-                    "saturday 7": "all ready booked",
-                    "saturday 14": "all ready booked",
-                    "saturday 21": "all ready booked",
-                    "saturday 28": "all ready booked"
+                    "saturday 7": "already booked",
+                    "saturday 14": "already booked",
+                    "saturday 21": "already booked",
+                    "saturday 28": "already booked"
                 }
             }
         ]
@@ -2560,20 +2671,20 @@
             {
                 "mois": 2,
                 "prix": {
-                    "saturday 2": "all ready booked",
-                    "saturday 9": "all ready booked",
-                    "saturday 16": "all ready booked",
-                    "saturday 23": "all ready booked",
-                    "saturday 30": "all ready booked"
+                    "saturday 2": "already booked",
+                    "saturday 9": "already booked",
+                    "saturday 16": "already booked",
+                    "saturday 23": "already booked",
+                    "saturday 30": "already booked"
                 }
             },
             {
                 "mois": 3,
                 "prix": {
-                    "saturday 2": "all ready booked",
-                    "saturday 9": "all ready booked",
-                    "saturday 16": "all ready booked",
-                    "saturday 23": "all ready booked",
+                    "saturday 2": "already booked",
+                    "saturday 9": "already booked",
+                    "saturday 16": "already booked",
+                    "saturday 23": "already booked",
                     "saturday 30": "US$333"
                 }
             },
@@ -2591,8 +2702,8 @@
                 "prix": {
                     "saturday 4": "US$333",
                     "saturday 11": "US$333",
-                    "saturday 18": "all ready booked",
-                    "saturday 25": "all ready booked"
+                    "saturday 18": "already booked",
+                    "saturday 25": "already booked"
                 }
             },
             {
@@ -2629,7 +2740,7 @@
                 "prix": {
                     "saturday 7": "US$644",
                     "saturday 14": "US$644",
-                    "saturday 21": "all ready booked",
+                    "saturday 21": "already booked",
                     "saturday 28": "US$356"
                 }
             },
@@ -2638,27 +2749,27 @@
                 "prix": {
                     "saturday 5": "US$356",
                     "saturday 12": "US$356",
-                    "saturday 19": "all ready booked",
-                    "saturday 26": "all ready booked"
+                    "saturday 19": "already booked",
+                    "saturday 26": "already booked"
                 }
             },
             {
                 "mois": 11,
                 "prix": {
-                    "saturday 2": "all ready booked",
-                    "saturday 9": "all ready booked",
-                    "saturday 16": "all ready booked",
-                    "saturday 23": "all ready booked",
-                    "saturday 30": "all ready booked"
+                    "saturday 2": "already booked",
+                    "saturday 9": "already booked",
+                    "saturday 16": "already booked",
+                    "saturday 23": "already booked",
+                    "saturday 30": "already booked"
                 }
             },
             {
                 "mois": 12,
                 "prix": {
-                    "saturday 7": "all ready booked",
-                    "saturday 14": "all ready booked",
-                    "saturday 21": "all ready booked",
-                    "saturday 28": "all ready booked"
+                    "saturday 7": "already booked",
+                    "saturday 14": "already booked",
+                    "saturday 21": "already booked",
+                    "saturday 28": "already booked"
                 }
             }
         ]
@@ -2671,105 +2782,105 @@
             {
                 "mois": 2,
                 "prix": {
-                    "saturday 2": "all ready booked",
-                    "saturday 9": "all ready booked",
-                    "saturday 16": "all ready booked",
-                    "saturday 23": "all ready booked",
-                    "saturday 30": "all ready booked"
+                    "saturday 2": "already booked",
+                    "saturday 9": "already booked",
+                    "saturday 16": "already booked",
+                    "saturday 23": "already booked",
+                    "saturday 30": "already booked"
                 }
             },
             {
                 "mois": 3,
                 "prix": {
-                    "saturday 2": "all ready booked",
-                    "saturday 9": "all ready booked",
-                    "saturday 16": "all ready booked",
-                    "saturday 23": "all ready booked",
-                    "saturday 30": "all ready booked"
+                    "saturday 2": "already booked",
+                    "saturday 9": "already booked",
+                    "saturday 16": "already booked",
+                    "saturday 23": "already booked",
+                    "saturday 30": "already booked"
                 }
             },
             {
                 "mois": 4,
                 "prix": {
-                    "saturday 6": "all ready booked",
-                    "saturday 13": "all ready booked",
-                    "saturday 20": "all ready booked",
-                    "saturday 27": "all ready booked"
+                    "saturday 6": "already booked",
+                    "saturday 13": "already booked",
+                    "saturday 20": "already booked",
+                    "saturday 27": "already booked"
                 }
             },
             {
                 "mois": 5,
                 "prix": {
-                    "saturday 4": "all ready booked",
-                    "saturday 11": "all ready booked",
-                    "saturday 18": "all ready booked",
-                    "saturday 25": "all ready booked"
+                    "saturday 4": "already booked",
+                    "saturday 11": "already booked",
+                    "saturday 18": "already booked",
+                    "saturday 25": "already booked"
                 }
             },
             {
                 "mois": 6,
                 "prix": {
-                    "saturday 1": "all ready booked",
-                    "saturday 8": "all ready booked",
-                    "saturday 15": "all ready booked",
-                    "saturday 22": "all ready booked",
-                    "saturday 29": "all ready booked"
+                    "saturday 1": "already booked",
+                    "saturday 8": "already booked",
+                    "saturday 15": "already booked",
+                    "saturday 22": "already booked",
+                    "saturday 29": "already booked"
                 }
             },
             {
                 "mois": 7,
                 "prix": {
-                    "saturday 6": "all ready booked",
-                    "saturday 13": "all ready booked",
-                    "saturday 20": "all ready booked",
-                    "saturday 27": "all ready booked"
+                    "saturday 6": "already booked",
+                    "saturday 13": "already booked",
+                    "saturday 20": "already booked",
+                    "saturday 27": "already booked"
                 }
             },
             {
                 "mois": 8,
                 "prix": {
-                    "saturday 3": "all ready booked",
-                    "saturday 10": "all ready booked",
-                    "saturday 17": "all ready booked",
-                    "saturday 24": "all ready booked",
-                    "saturday 31": "all ready booked"
+                    "saturday 3": "already booked",
+                    "saturday 10": "already booked",
+                    "saturday 17": "already booked",
+                    "saturday 24": "already booked",
+                    "saturday 31": "already booked"
                 }
             },
             {
                 "mois": 9,
                 "prix": {
-                    "saturday 7": "all ready booked",
-                    "saturday 14": "all ready booked",
-                    "saturday 21": "all ready booked",
-                    "saturday 28": "all ready booked"
+                    "saturday 7": "already booked",
+                    "saturday 14": "already booked",
+                    "saturday 21": "already booked",
+                    "saturday 28": "already booked"
                 }
             },
             {
                 "mois": 10,
                 "prix": {
-                    "saturday 5": "all ready booked",
-                    "saturday 12": "all ready booked",
-                    "saturday 19": "all ready booked",
-                    "saturday 26": "all ready booked"
+                    "saturday 5": "already booked",
+                    "saturday 12": "already booked",
+                    "saturday 19": "already booked",
+                    "saturday 26": "already booked"
                 }
             },
             {
                 "mois": 11,
                 "prix": {
-                    "saturday 2": "all ready booked",
-                    "saturday 9": "all ready booked",
-                    "saturday 16": "all ready booked",
-                    "saturday 23": "all ready booked",
-                    "saturday 30": "all ready booked"
+                    "saturday 2": "already booked",
+                    "saturday 9": "already booked",
+                    "saturday 16": "already booked",
+                    "saturday 23": "already booked",
+                    "saturday 30": "already booked"
                 }
             },
             {
                 "mois": 12,
                 "prix": {
-                    "saturday 7": "all ready booked",
-                    "saturday 14": "all ready booked",
-                    "saturday 21": "all ready booked",
-                    "saturday 28": "all ready booked"
+                    "saturday 7": "already booked",
+                    "saturday 14": "already booked",
+                    "saturday 21": "already booked",
+                    "saturday 28": "already booked"
                 }
             }
         ]
@@ -2782,45 +2893,45 @@
             {
                 "mois": 2,
                 "prix": {
-                    "saturday 2": "all ready booked",
-                    "saturday 9": "all ready booked",
-                    "saturday 16": "all ready booked",
-                    "saturday 23": "all ready booked",
-                    "saturday 30": "all ready booked"
+                    "saturday 2": "already booked",
+                    "saturday 9": "already booked",
+                    "saturday 16": "already booked",
+                    "saturday 23": "already booked",
+                    "saturday 30": "already booked"
                 }
             },
             {
                 "mois": 3,
                 "prix": {
-                    "saturday 2": "all ready booked",
-                    "saturday 9": "all ready booked",
-                    "saturday 16": "all ready booked",
-                    "saturday 23": "all ready booked",
-                    "saturday 30": "all ready booked"
+                    "saturday 2": "already booked",
+                    "saturday 9": "already booked",
+                    "saturday 16": "already booked",
+                    "saturday 23": "already booked",
+                    "saturday 30": "already booked"
                 }
             },
             {
                 "mois": 4,
                 "prix": {
-                    "saturday 6": "all ready booked",
-                    "saturday 13": "all ready booked",
-                    "saturday 20": "all ready booked",
-                    "saturday 27": "all ready booked"
+                    "saturday 6": "already booked",
+                    "saturday 13": "already booked",
+                    "saturday 20": "already booked",
+                    "saturday 27": "already booked"
                 }
             },
             {
                 "mois": 5,
                 "prix": {
-                    "saturday 4": "all ready booked",
-                    "saturday 11": "all ready booked",
+                    "saturday 4": "already booked",
+                    "saturday 11": "already booked",
                     "saturday 18": "US$452",
-                    "saturday 25": "all ready booked"
+                    "saturday 25": "already booked"
                 }
             },
             {
                 "mois": 6,
                 "prix": {
-                    "saturday 1": "all ready booked",
+                    "saturday 1": "already booked",
                     "saturday 8": "US$452",
                     "saturday 15": "US$452",
                     "saturday 22": "US$452",
@@ -2831,7 +2942,7 @@
                 "mois": 7,
                 "prix": {
                     "saturday 6": "US$452",
-                    "saturday 13": "all ready booked",
+                    "saturday 13": "already booked",
                     "saturday 20": "US$452",
                     "saturday 27": "US$452"
                 }
@@ -2840,158 +2951,47 @@
                 "mois": 8,
                 "prix": {
                     "saturday 3": "US$452",
-                    "saturday 10": "all ready booked",
-                    "saturday 17": "all ready booked",
-                    "saturday 24": "all ready booked",
-                    "saturday 31": "all ready booked"
+                    "saturday 10": "already booked",
+                    "saturday 17": "already booked",
+                    "saturday 24": "already booked",
+                    "saturday 31": "already booked"
                 }
             },
             {
                 "mois": 9,
                 "prix": {
-                    "saturday 7": "all ready booked",
-                    "saturday 14": "all ready booked",
-                    "saturday 21": "all ready booked",
-                    "saturday 28": "all ready booked"
+                    "saturday 7": "already booked",
+                    "saturday 14": "already booked",
+                    "saturday 21": "already booked",
+                    "saturday 28": "already booked"
                 }
             },
             {
                 "mois": 10,
                 "prix": {
-                    "saturday 5": "all ready booked",
-                    "saturday 12": "all ready booked",
-                    "saturday 19": "all ready booked",
-                    "saturday 26": "all ready booked"
+                    "saturday 5": "already booked",
+                    "saturday 12": "already booked",
+                    "saturday 19": "already booked",
+                    "saturday 26": "already booked"
                 }
             },
             {
                 "mois": 11,
                 "prix": {
-                    "saturday 2": "all ready booked",
-                    "saturday 9": "all ready booked",
-                    "saturday 16": "all ready booked",
-                    "saturday 23": "all ready booked",
-                    "saturday 30": "all ready booked"
+                    "saturday 2": "already booked",
+                    "saturday 9": "already booked",
+                    "saturday 16": "already booked",
+                    "saturday 23": "already booked",
+                    "saturday 30": "already booked"
                 }
             },
             {
                 "mois": 12,
                 "prix": {
-                    "saturday 7": "all ready booked",
-                    "saturday 14": "all ready booked",
-                    "saturday 21": "all ready booked",
-                    "saturday 28": "all ready booked"
-                }
-            }
-        ]
-    },
-	{
-        "name": "Flocons de Sel",
-        "restaurant1": "Flocons de Sel",
-        "restaurant2": "Flocons Village",
-        "date": [
-            {
-                "mois": 2,
-                "prix": {
-                    "saturday 2": "all ready booked",
-                    "saturday 9": "all ready booked",
-                    "saturday 16": "all ready booked",
-                    "saturday 23": "US$1034",
-                    "saturday 30": "all ready booked"
-                }
-            },
-            {
-                "mois": 3,
-                "prix": {
-                    "saturday 2": "US$1034",
-                    "saturday 9": "US$1034",
-                    "saturday 16": "all ready booked",
-                    "saturday 23": "all ready booked",
-                    "saturday 30": "all ready booked"
-                }
-            },
-            {
-                "mois": 4,
-                "prix": {
-                    "saturday 6": "US$520",
-                    "saturday 13": "US$520",
-                    "saturday 20": "all ready booked",
-                    "saturday 27": "all ready booked"
-                }
-            },
-            {
-                "mois": 5,
-                "prix": {
-                    "saturday 4": "all ready booked",
-                    "saturday 11": "all ready booked",
-                    "saturday 18": "all ready booked",
-                    "saturday 25": "all ready booked"
-                }
-            },
-            {
-                "mois": 6,
-                "prix": {
-                    "saturday 1": "all ready booked",
-                    "saturday 8": "all ready booked",
-                    "saturday 15": "all ready booked",
-                    "saturday 22": "all ready booked",
-                    "saturday 29": "all ready booked"
-                }
-            },
-            {
-                "mois": 7,
-                "prix": {
-                    "saturday 6": "all ready booked",
-                    "saturday 13": "all ready booked",
-                    "saturday 20": "all ready booked",
-                    "saturday 27": "all ready booked"
-                }
-            },
-            {
-                "mois": 8,
-                "prix": {
-                    "saturday 3": "all ready booked",
-                    "saturday 10": "all ready booked",
-                    "saturday 17": "all ready booked",
-                    "saturday 24": "all ready booked",
-                    "saturday 31": "all ready booked"
-                }
-            },
-            {
-                "mois": 9,
-                "prix": {
-                    "saturday 7": "all ready booked",
-                    "saturday 14": "all ready booked",
-                    "saturday 21": "all ready booked",
-                    "saturday 28": "all ready booked"
-                }
-            },
-            {
-                "mois": 10,
-                "prix": {
-                    "saturday 5": "all ready booked",
-                    "saturday 12": "all ready booked",
-                    "saturday 19": "all ready booked",
-                    "saturday 26": "all ready booked"
-                }
-            },
-            {
-                "mois": 11,
-                "prix": {
-                    "saturday 2": "all ready booked",
-                    "saturday 9": "all ready booked",
-                    "saturday 16": "all ready booked",
-                    "saturday 23": "all ready booked",
-                    "saturday 30": "all ready booked"
-                }
-            },
-            {
-                "mois": 12,
-                "prix": {
-                    "saturday 7": "all ready booked",
-                    "saturday 14": "all ready booked",
-                    "saturday 21": "all ready booked",
-                    "saturday 28": "all ready booked"
+                    "saturday 7": "already booked",
+                    "saturday 14": "already booked",
+                    "saturday 21": "already booked",
+                    "saturday 28": "already booked"
                 }
             }
         ]
