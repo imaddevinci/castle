@@ -32,14 +32,14 @@ $npm start
 ## Methodology
 
 <li>
-Michelin Restaurant
+### Michelin Restaurant
 </li>
 I scraped the Michelin web site and took the name of starred restaurants, to do so I went to all 
 starred restaurants (directly by using filter on the web site) then I recovered the name of each restaurants on
 the page, I iterated this for all pages.
 I put their name into an array that I exports to the main project.
 <li>
-Relais&Chateau
+### Relais&Chateau
 </li>
 Then I scrapped the Relais&Chateau web site to take names of French hotel with restaurants. 
 Once I recovery all hotels with there restaurant, I checked if they were starred, to do so I compared their names (there is sometimes two restaurants in one hotel) 
