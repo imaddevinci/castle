@@ -1,68 +1,54 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+﻿# Relais Chateaux and Michelin
+![Relais Chateaux and Michelin](http://www.les2mas.com/admin/modules/module_actualite/images/big/hotel-restaurant-perpignan-1-35.png)
+![Relais Chateaux and Michelin](https://media.relaischateaux.com/public/hash/800a06d9a483b8f32b4cfe08ba5c32c0611e2ed0)
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
+**Table of Contents**
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- [Introduction](#introduction)
+- [Methodology](#Methodology)
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
+<li>
+To clone and run this application you'll have to do this from your command line
 
-### `npm run build`
+```sh
+Clone this repository
+$git clone https://github.com/imaddevinci/castle.git
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Go into the repository
+$cd /path/to/workspace/castle/Public/scrapereact/relais/src
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+run the react part
+$npm start
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+</li>
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Methodology
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<li>
+Michelin Restaurant
+</li>
+I scraped the Michelin web site and took the name of starred restaurants, to do so I went to all 
+starred restaurants (directly by using filter on the web site) then I recovered the name of each restaurants on
+the page, I iterated this for all pages.
+I put their name into an array that I exports to the main project.
+<li>
+Relais&Chateau
+</li>
+Then I scrapped the Relais&Chateau web site to take names of French hotel with restaurants. 
+Once I recovery all hotels with there restaurant, I checked if they were starred, to do so I compared their names (there is sometimes two restaurants in one hotel) 
+to the name of starts restaurants from Michelin.
+Once I did this I created a function to recuperate all weekend available from the json that I recuperated with a fetch request
+directly from the web site. 
+I ordered them with their price with a sort by selection algorithm.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+  
