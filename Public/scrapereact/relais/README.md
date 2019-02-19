@@ -1,5 +1,5 @@
 ﻿# Relais Chateaux and Michelin
-![Relais Chateaux and Michelin](http://www.les2mas.com/admin/modules/module_actualite/images/big/hotel-restaurant-perpignan-1-35.png)
+![Relais Chateaux and Michelin](http://www.coastalvillas.com/wp-content/uploads/2017/07/estrella-750x422.jpg)
 ![Relais Chateaux and Michelin](https://media.relaischateaux.com/public/hash/800a06d9a483b8f32b4cfe08ba5c32c0611e2ed0)
 
 
