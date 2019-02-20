@@ -14,41 +14,7 @@ class App extends Component {
     this.state = { liked: false };
 
   }
-  
-  getBest(){
-    var best = Data;
-    const hotels = best.map(el => {
-      let name = el.best_choice_name;
-      let day = el.best_choice_date;
-      //console.log(day);
-      let price = el.best_choice_price;
-      //console.log(price);
-
-    return ( 
-        <div className="line">
-          <div className = 'name'>
-            <p>{name}</p>
-          </div>
-          <div className = 'date'>
-            <div><p>{"Saturday "+ day + "th March 2019"}</p></div>
-          </div>
-          <div className = 'price'>
-            <div><p>{price}</p></div>
-          </div>
-        </div>
-      )
-    })
-
-    return hotels;
-  }
-  
-  
-  
-  
-  
-  
-  
-  
+    
   render() {
 	  
 	  
